@@ -645,7 +645,7 @@
 
 <div class="schedule-top" style="margin-bottom: 2vh">
 <span class="leftarrow" id="leftarrow" onclick="shiftBackward()">◀ </span>
-<pre id="day">Saturday 1/16</pre>
+<pre id="day">Saturday 8/26</pre>
 <span class="rightarrow" id="rightarrow" onclick="shiftForward()">▶</span>
 </div>
 <div id="schedSat" style="box-shadow: 5px 10px 10px #050510;">
@@ -1131,14 +1131,14 @@ $(window).scroll(function (event) {
     })
     });
 
-var shiftDay = "Saturday 1/16";
+var shiftDay = "Saturday 8/26";
 
 const leftarrow=document.getElementById("leftarrow");
 const rightarrow=document.getElementById("rightarrow");
 function shiftBackward() {
- if (shiftDay == "Sunday 1/17") {
-    shiftDay = "Saturday 1/16";
-    document.getElementById("day").innerHTML = "Saturday 1/16";
+ if (shiftDay == "Sunday 8/27") {
+    shiftDay = "Saturday 8/26";
+    document.getElementById("day").innerHTML = "Saturday 8/26";
     document.getElementById("schedSun").style.display = "none";
     document.getElementById("leftarrow").style.color = "gray";
     document.getElementById("rightarrow").style.cursor = "pointer";
@@ -1149,9 +1149,9 @@ function shiftBackward() {
 }
 
 function shiftForward() {
-  if (shiftDay == "Saturday 1/16") {
-    shiftDay = "Sunday 1/17";
-    document.getElementById("day").innerHTML = "Sunday 1/17";
+  if (shiftDay == "Saturday 8/26") {
+    shiftDay = "Sunday 8/27";
+    document.getElementById("day").innerHTML = "Sunday 8/27";
     document.getElementById("schedSat").style.display = "none";
     document.getElementById("leftarrow").style.color = "gainsboro";
     document.getElementById("rightarrow").style.cursor = "default";
