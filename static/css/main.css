@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Katahdin Round";
+  src: url('/hackX/static/KatahdinRound.otf');
+}
+@font-face {
+  font-family: "Gellix";
+  src: url('/hackX/static/gellix-11.otf');
+}
 * {
 font-family: "Katahdin Round", sans-serif;
 

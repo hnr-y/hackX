@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Katahdin Round";
+  src: url('/hackX/static/KatahdinRound.otf');
+}
+@font-face {
+  font-family: "Gellix";
+  src: url('/hackX/static/gellix-11.otf');
+}
+
 * {
     font-family: "Katahdin Round", sans-serif;
 }
@@ -1054,6 +1063,19 @@ z-index: 999;
     padding-right: 0.5rem;
     width: 100%;
 }
+.prospectus-bronze {
+    color: rgb(113 63 18);
+}
+.prospectus-silver {
+    color: rgb(75 85 99);
+}
+.prospectus-gold {
+    color: rgb(251 191 36);
+}
+.prospectus-partner {
+    color: rgb(2 132 199);
+}
+
 .prospectus th, .prospectus td{
     font-family: "Gellix", sans-serif;
     text-shadow: 0px 0.3px, 0.3px 0px, 0.3px 0.3px;
